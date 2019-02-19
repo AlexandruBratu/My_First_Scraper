@@ -7,8 +7,9 @@ import lxml.html
 print("Hello")
 # # Read in a page
 html = scraperwiki.scrape("http://foo.com")
+# This line scrapes the html of this web page
 print(html)
-#
+# This line prints the html content of the web page for us to see
 # # Find something on the page using css selectors
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
